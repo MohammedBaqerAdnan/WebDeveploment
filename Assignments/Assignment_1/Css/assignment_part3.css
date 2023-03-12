@@ -1,0 +1,150 @@
+/* Common styles */
+
+.container {
+    min-height: 750px;
+  }
+
+.box {
+    height: 100px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+  }
+  
+  /* Desktop styles */
+  .top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+.green_box {
+    display: flex;
+  }
+.red_box {
+    display: flex;
+  }
+
+  .blue {
+    background-color: rgb(56, 167, 204);
+    width: 48%;
+    display: flex;
+  }
+  .yellow-box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .yellow {
+    background-color: yellow;
+    height: 320px;
+    width: 98%;
+    
+  }
+.green_box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .green {
+    background-color: green;
+    width: 31%;
+    height: 200px;
+  }
+    .red_box {
+        display: flex;
+        justify-content: space-around;
+    }
+  .red {
+    background-color: red;
+    width: 23%;
+  }
+
+  
+  /* Tablet View */
+@media (max-width: 790px) {
+    .blue {
+        width: 98%;
+        align-self: center; 
+        margin-bottom: 20px;
+        height: 80px;
+      }
+  
+    .top-section {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    .yellow-box {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      .yellow {
+        width: 98%;
+        height: 250px;
+        align-self: center;
+        margin-bottom: 20px;
+      }
+    .green_box {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      .green {
+        width: 98%;
+        height: 80px;
+        align-self: center;
+        margin-bottom: 20px;
+      }
+    .red_box {
+        flex-direction: row;
+        /* flex wrap */
+        flex-wrap: wrap;
+
+      }
+        .red {
+            width: 48%;
+            height: 80px;
+            align-self: center;
+            margin-bottom: 20px;
+        }
+   
+      
+    
+  }
+  
+  
+  
+  /* Mobile styles */
+  @media screen and (max-width: 480px) {
+    .red_box {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      .red {
+        width: 98%;
+        height: 80px;
+        align-self: center;
+        margin-bottom: 20px;
+      }
+      .hidden-mobile {
+        display: none;
+      }
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
